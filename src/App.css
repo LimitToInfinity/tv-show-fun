@@ -1,0 +1,27 @@
+.App {
+    display: flex;
+}
+
+.show-container {
+    width: 50vw;
+    height: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.show-card {
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+}
+
+.show-card > img {
+    height: 100%;
+    width: 100%;
+}
+
+.side-bar {
+    width: 30%;
+}
